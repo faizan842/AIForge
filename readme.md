@@ -1,62 +1,36 @@
-# OpenAI Web Application
+# AIForge Web Application: Simplifying OpenAI API Interaction
 
-A web application that allows users to interact with OpenAI's modles through a simple and user-friendly interface.
-This app is for demo purpose to test OpenAI API and may contain issues/bugs.
-
-If you are looking for React.js version check [here](https://github.com/ioanmo226/chatgpt-react-application)
-
-https://user-images.githubusercontent.com/77344191/223635130-afb01b51-98ee-45c6-b3b9-8c090a5c0e20.mp4
-
-<a href="https://www.buymeacoffee.com/ioanmo226" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="51" width="217"></a>
-
+Welcome to AIForge, a web application designed to facilitate interaction with OpenAI models through an intuitive and user-friendly interface. Please note that this application is intended for demonstration purposes, and it may contain bugs or issues.
 
 ## Features
-- User-friendly interface for making requests to the OpenAI API
-- Responses are displayed in a chat-like format
-- Select Models (Davinci, DALL·E, Whisper) based on your needs
-- Create AI Images (DALL·E)
-- Audio-Text Transcribe (Whisper)
-- Highlight code syntax
 
-## Technologies Used
-- For client, I haven't used frameworks as this is simple demo version.
-- For server, I used express.
+- **User-Friendly Interface**: Easily make requests to the OpenAI API through a simple and intuitive interface.
+- **Chat-Like Display**: Responses are presented in a conversational chat-like format for better readability.
+- **Model Selection**: Choose from different OpenAI models such as Davinci, DALL·E, and Whisper to suit your specific requirements.
+- **AI Image Creation**: Generate AI images using the DALL·E model.
+- **Audio-to-Text Transcription**: Utilize the Whisper model to transcribe audio into text.
+- **Code Syntax Highlighting**: Highlight code syntax for a clearer view.
 
-## Setup
-### Prerequisites
-- Node.js
-- OpenAI API Key
 ### Installation
+
 1. Clone the repository:
-```sh
-git clone https://github.com/ioanmo226/chatgpt-web-application
-```
-2. Install the dependencies:
-```sh
-npm install
-```
-3. Create a .env file in the root folder and add your OpenAI API key in the following format:
-```sh
-OPENAI_API_KEY=your_api_key
-```
-4. Start node server
-```sh
-node index.js
-```
-5. Now when you navigate to http://localhost:3001 you will see web response.
+   ```sh
+   git clone https://github.com/ioanmo226/chatgpt-web-application
+   ```
 
-## Usage
-- Type in the input field and press enter or click on the send button to make a request to the OpenAI API
-- Use control+enter to add line breaks in the input field
-- Responses are displayed in the chat-like format on top of the page
-- Generate code, including translating natural language to code
-- Take advantage of DALL·E models to generate AI images.
-- Utilize Whisper Model to transcribe audio into text.
+2. Install the required dependencies:
+   ```sh
+   npm install
+   ```
 
-## Contributing
+3. Create a `.env` file in the root folder and add your OpenAI API key:
+   ```sh
+   OPENAI_API_KEY=your_api_key
+   ```
 
-This project welcomes contributions and suggestions for improvements. If you have any ideas, please feel free to open an issue or create a pull request.
+4. Start the Node.js server:
+   ```sh
+   node index.js
+   ```
 
-Thank you for your consideration.
-
-
+5. Access the web application at [http://localhost:3001](http://localhost:3001) to interact with the AIForge.
